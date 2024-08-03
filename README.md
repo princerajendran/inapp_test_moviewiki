@@ -1,5 +1,3 @@
-# IMDB Dataset Project
-
 ## Overview
 
 This project involves creating a web application to search and display information about movies and people from the IMDB dataset. The project includes a Django backend with RESTful APIs and a frontend application for user interaction. The APIs support searching for movies and people with various filters. Authentication is implemented using JWT.
