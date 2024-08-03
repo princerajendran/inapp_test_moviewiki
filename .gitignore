@@ -1,0 +1,39 @@
+# Python
+*.sqlite3
+**/__pycache__
+**/migrations/*.py
+!**/migrations/__init__.py
+!.empty
+*.log
+*.pot
+*.pyc
+*.zip
+
+# Media and static files
+assets/media/
+assets/static/
+
+# React
+/front_end/node_modules/
+/front_end/.pnp
+/front_end.pnp.js
+/front_end/coverage/
+/front_end/build/
+/front_end/.DS_Store
+/front_end/.env.local
+/front_end/.env.development.local
+/front_end/.env.test.local
+/front_end/.env.production.local
+/front_end/npm-debug.log*
+/front_end/yarn-debug.log*
+/front_end/yarn-error.log*
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Other common files
+*.jpg
+*.jpeg
+*.gif
+*.png
